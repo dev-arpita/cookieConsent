@@ -17,17 +17,6 @@ declineBtn.addEventListener('mouseenter', function(){
     modalChoiceBtns.classList.toggle('modal-choice-btns-reverse')
 })
 
-/*
-Challenge:
-1. Take control of the div holding the buttons.
-2. In index.css, set up a selector for a new class
-   that uses flex-direction to reverse the order
-   of its child elements.
-3. Toggle that class on the div holding the buttons
-   when a user's cursor hovers over the decline button.
-*/
-
-
 consentForm.addEventListener('submit', function(e){
     e.preventDefault()
 
